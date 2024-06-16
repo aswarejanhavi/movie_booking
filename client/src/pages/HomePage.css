@@ -1,0 +1,38 @@
+/* HomePage.css */
+.homepage {
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/view-3d-cinema-theatre-room_23-2151067056.jpg?t=st=1718563943~exp=1718567543~hmac=b059aa29bab0c2f0dd8dd119d3842246772f08c34d6f5b92653716c4eefffa98&w=996'); /* Reference the local image file */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background-color: rgba(189, 16, 16, 0.838); 
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: center;
+    color: white;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.links a:hover {
+    background-color: white;
+    color: black;
+}

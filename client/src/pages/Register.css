@@ -1,0 +1,54 @@
+/* Register.css */
+.register-page {
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/view-3d-cinema-theatre-room_23-2151067056.jpg?t=st=1718563943~exp=1718567543~hmac=b059aa29bab0c2f0dd8dd119d3842246772f08c34d6f5b92653716c4eefffa98&w=996'); /* Reference the local image file */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-overlay {
+    background-color: rgba(249, 152, 162, 0.8); 
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(4, 5, 3);
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
